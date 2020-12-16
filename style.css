@@ -1,0 +1,301 @@
+body {
+    margin: 0 auto;
+}
+
+.bgBlue {
+    height: 350px;
+    width: 800px;
+    background-color: lightblue;
+    margin: auto;
+}
+
+.man1 {
+    width: 156px;
+    margin: 0 auto;
+}
+
+.hairFront, .hairBack, .face1, .face2, .ear1, .ear2, .glass1, .glass2, .smile, .neck, .shirt  {    
+    border: solid 3px navy;
+    height: 50px;
+    width: 100px;
+}
+
+.hairFront, .hairBack {
+    background-color: peru;
+}
+
+.hairFront {
+    border-radius: 80% 80% 0% 80%;
+    border-left: none;
+    position: relative;
+    top: 50px;
+    left: 10px;
+    padding-left: 10px;
+    z-index: 10;
+}
+
+.hairBack {
+    border-radius: 40%;
+    padding-bottom: 20px;
+    z-index: -10;
+    padding-left: 10px;
+}
+
+.face1, .face2, .ear1, .ear2, .neck {
+    background-color: peachpuff;
+    position: relative;
+}
+
+.face1, .face2 {        
+    left: 10px;
+    bottom: 60px;
+    z-index: 9;
+}
+
+.face1 {
+    border-bottom: none;
+}
+
+.face2 {
+    padding-bottom: 10px;
+    border-radius: 0% 0% 50% 50%;
+}
+
+.ear1, .ear2, .glass1, .glass2, .smile, .neck {
+    height: 15px;
+    width: 15px;
+    border-radius: 90%;
+    position: relative;
+}
+
+.ear1, .ear2 {
+    z-index: 1;
+}
+
+.ear1 {
+    bottom: 133px;
+}
+
+.ear2 {
+    left: 105px;
+    bottom: 153px;
+}
+
+.glass1, .glass2 {
+    background-color: white;
+    z-index: 11;    
+}
+
+.glass1 {
+    bottom: 177px;
+    left: 35px;
+}
+
+.glass2 {
+    bottom: 198px;
+    left: 70px;
+}
+
+.smile, .neck {
+    border-top: 0;
+    border-radius: 0% 0% 90% 90%;
+    height: 14px;
+    left: 53px;
+}
+
+.smile {
+    z-index: 12;
+    bottom: 190px;
+    border-bottom-left-radius: 110px;   
+    border-bottom-right-radius: 110px;  
+}
+
+.neck {
+    bottom: 163px;
+    z-index: 7;
+}
+
+.shirt {
+    background-color: whitesmoke;
+    border-radius: 70px;
+    width: 120px;
+    position: relative;
+    bottom: 175px;
+    z-index: 6;
+}
+
+.denim1, .denim2 {
+    background-color: royalblue;
+    border: solid navy 3px;
+    height: 30px;
+    width: 10px;
+    position: relative;
+    z-index: 7;
+}
+
+.denim1 {
+    bottom: 231px;
+    left: 37px;
+}
+
+.denim2 {
+    bottom: 267px;
+    left: 73px;
+}
+
+.base {
+    background-color: mintcream;
+    height: 100px;
+    width: 150px;
+    z-index: 13;
+    border: solid navy 3px;
+    border-radius: 10px;
+    position: relative;
+    bottom: 275px;
+    right: 15px;
+    z-index: 8;
+}
+
+.bgPink {
+    height: 350px;
+    width: 800px;
+    background-color: lavenderblush;
+    margin: auto;
+}
+
+.man2 {
+    width: 156px;
+    margin: 0 auto;
+}
+
+.hairFront2, .hairBack2, .face10, .face20, .ear10, .ear20, .eye1, .eye2, .smile2, .neck2, .shirt2  {    
+    border: solid 3px maroon;
+    height: 50px;
+    width: 100px;
+}
+
+.hairFront2, .hairBack2 {
+    background-color: deepskyblue;
+}
+
+.hairFront2 {
+    border-radius: 45px 0px 45px 0px;
+    position: relative;
+    top: 50px;
+    left: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    z-index: 4;
+}
+
+.hairBack2 {
+    width: 15px;
+    border-radius: 25px 25px 25px 25px;
+    z-index: 6;
+    padding-left: 10px;
+    position: relative;
+}
+
+.face10, .face20, .ear10, .ear20, .neck2 {
+    background-color: burlywood;
+    position: relative;
+}
+
+.face10, .face20 {        
+    left: 10px;
+    bottom: 35px;
+    z-index: 3;
+}
+
+.face10 {
+    border-bottom: none;
+}
+
+.face20 {
+    padding-bottom: 10px;
+    border-radius: 0% 0% 50% 50%;
+    border-top: none;
+}
+
+.ear10, .ear20, .eye1, .eye2, .smile2, .neck2 {
+    height: 15px;
+    width: 15px;
+    border-radius: 90%;
+    position: relative;
+}
+
+.ear10, .ear20 {
+    z-index: 0;
+}
+
+.ear10 {
+    bottom: 100px;
+}
+
+.ear20 {
+    left: 105px;
+    bottom: 120px;
+}
+
+.eye1, .eye2 {
+    width: 5px;
+    height: 5px;
+    background-color: maroon;
+    z-index: 5; 
+    position: relative;   
+}
+
+.eye1 {
+    bottom: 140px;
+    left: 35px;
+    
+}
+
+.eye2 {
+    bottom: 151px;
+    left: 80px;
+}
+
+.smile2, .neck2 {
+    border-top: none;
+    border-radius: 0% 0% 90% 90%;
+    height: 14px;
+    left: 53px;
+}
+
+.smile2 {
+    z-index: 5;
+    bottom: 135px;
+    
+}
+
+.neck2 {
+    bottom: 117px;
+    z-index: 2;
+}
+
+.shirt2 {
+    background-color: orangered;
+    border-radius: 70px;
+    width: 120px;
+    position: relative;
+    bottom: 130px;
+}
+
+.base2 {
+    background-color: mintcream;
+    height: 100px;
+    width: 150px;
+    z-index: 13;
+    border: solid maroon 3px;
+    border-radius: 10px;
+    position: relative;
+    bottom: 155px;
+    right: 15px;
+    z-index: 3;
+}
+
+
+
+
+
